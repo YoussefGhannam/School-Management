@@ -1,6 +1,6 @@
 # Application Overview
 
-This application, built using Java Enterprise Edition (JEE), provides a robust solution for managing and interacting with data related to **departments**, **students**, and **fields**.
+This application, developed using Java Enterprise Edition (JEE), offers a comprehensive solution for managing and interacting with data related to **departments**, **students**, and **fields**.
 
 ## Features
 
@@ -11,8 +11,11 @@ This application, built using Java Enterprise Edition (JEE), provides a robust s
 
 ## Technologies Used
 
-- **Java Enterprise Edition (JEE)**: Provides enterprise-level functionality.
-- **[Additional technologies, if any]**: [Mention any additional frameworks or tools used, if applicable.]
+- **Java Enterprise Edition (JEE)**: For robust, enterprise-level functionality.
+- **Beans**: Utilized for encapsulating data and business logic.
+- **Servlets**: Used for handling requests and responses.
+- **JSP (JavaServer Pages)**: For creating dynamic web pages.
+- **HTML**: Employed for structuring content on the web pages.
 
 ## Installation and Setup
 
@@ -20,12 +23,12 @@ To set up and run this application, follow these steps:
 
 1. **Clone the Repository**
     ```bash
-    git clone <repository-url>
+    git clone git clone https://github.com/YoussefGhannam/School-Management.git
     ```
 
 2. **Navigate to the Project Directory**
     ```bash
-    cd <project-directory>
+    cd School-Management
     ```
 
 3. **Build and Deploy**
@@ -55,10 +58,6 @@ Contributions to this project are welcome. To contribute:
 2. **Create a New Branch** for your changes.
 3. **Submit a Pull Request** with a detailed description of your modifications.
 
-## License
-
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or feedback, please reach out to [Your Name] at [Your Email Address].
+For any questions or feedback, please reach out to Youssef Ghannam at youssefghannnnam@gmail.com.
