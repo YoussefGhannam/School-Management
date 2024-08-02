@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8"></head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	
+        
+        <div class="container mt-5">
+        <h2>Insert Student</h2>
+        <form action="insert_etudiant" method="post">
+            
+            <div class="form-group">
+                <label for="cne">Cne:</label>
+                <input type="text" class="form-control" id="cne" name="cne" required>
+            </div>
+            <div class="form-group">
+                <label for="nom">Nom:</label>
+                <input type="text" class="form-control" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom:</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="telephone">Téléphone:</label>
+                <input type="text" class="form-control" id="telephone" name="telephone" required>
+            </div>
+            <h2>Departement et Filiere</h2>
+        <div class="form-group">
+            <label for="departmentSelect">Select Departement:</label>
+            <select class="form-control" id="departmentSelect" name="dep">
+				  <option value="" selected>Select Departement</option>
+				  <option value="Computer Science">Computer Science</option>
+				  <option value="Electrical Engineering">Electrical Engineering</option>
+				  <option value="Mechanical Engineering">Mechanical Engineering</option>
+
+						
+						
+	                <!-- Departments will be dynamically loaded here -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="branchSelect">Select Filiere:</label>
+            <select class="form-control" id="branchSelect" name="filiere">
+                <option value="" selected>Select Filiere</option>
+                <option value="Computer Networks">Computer Networks</option>
+				<option value="Control Systems">Control Systems</option>
+				<option value="Software Engineering">Software Engineering</option>
+
+            </select>
+        </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+    </div>
+            
+        </form>
+        
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+</body>
+
+
+</html>
